@@ -1,3 +1,5 @@
+.Entrar al "francinette-image" que esta en la raiz y una vez dentro poner el comando: docker build -t francinette-image .
+.Genera un contenedor: docker run -d -i -v /home:/home -v /goinfre:/goinfre -v /home/jquiaro-/francinette-image/logs:/francinette/logs-t --name run-paco francinette-image /bin/bash
+
 .Verifica el estado del contenedor Docker: docker ps -a
 .Correr paco: docker start run-paco
-
