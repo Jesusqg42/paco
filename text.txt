@@ -1,0 +1,3 @@
+.Verifica el estado del contenedor Docker: docker ps -a
+.Correr paco: docker start run-paco
+
