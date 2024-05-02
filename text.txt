@@ -3,3 +3,4 @@
 
 .Verifica el estado del contenedor Docker: docker ps -a
 .Correr paco: docker start run-paco
+.Correr nuevamente: docker exec -it run-paco /bin/bash
